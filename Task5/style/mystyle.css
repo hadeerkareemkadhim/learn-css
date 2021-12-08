@@ -1,0 +1,37 @@
+.my-line1 { background-color: rgb(218, 161, 210);
+     width: 300px; 
+     height: 300px;
+     color: white; 
+     padding: 10px; 
+     margin: 10px; 
+     display: inline-block; 
+     font-size: large; 
+     font-weight: bold; 
+     border: 10px solid red;
+    } 
+.my-line2 {
+     background-color: rgb(209, 186, 231); 
+     width: 300px;
+     height: 300px; 
+     color: black; 
+     display: inline-block; 
+     padding: 10px; 
+     margin: 10px; 
+     font-size: large; 
+     font-weight: bold; 
+     border-left: 10px dashed red; 
+     border-right: 10px dotted red;
+    } 
+    .my-line3 {
+         background-color: rgb(60, 61, 119); 
+         width: 300px; 
+         height: 300px; 
+         color: white; 
+         display: inline-block; 
+         padding: 10px; 
+         margin: 10px; 
+         font-size: large; 
+         font-weight: bold;
+         border-top: 10px dashed red; 
+         border-bottom: 10px solid red;
+        }
