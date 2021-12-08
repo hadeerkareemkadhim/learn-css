@@ -1,0 +1,36 @@
+.my-body {
+  background-image: url(../style/imag2.jpg);
+ background-size: cover; 
+}
+.div1 {
+    background-image: url(../style/imag1.jpg); 
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+    height: 165px;
+    width: 250px; 
+    padding: 20px; 
+    margin: 20px; 
+} 
+.div2 { 
+   background-image: url(../style/imag2.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center; 
+    color: #fff; 
+    height: 165px; 
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+ } 
+ .div3 {
+      background-image: url(../style/imag2.jpg);
+      background-repeat: no-repeat; 
+      background-size: 500px; 
+      background-position: center;
+      color: #fff; 
+      height: 165px; 
+      width: 250px; 
+      padding: 20px; 
+      margin: 20px;
+ } 
