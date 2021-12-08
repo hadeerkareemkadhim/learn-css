@@ -1,0 +1,45 @@
+.my-div1{ 
+    background-image: url(imag1.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position:center ;
+    width: 400px; 
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+
+
+}
+  .my-div2{
+     background-image: url(imag1.jpg);
+     background-repeat: repeat-y; 
+     background-size: contain; 
+     background-position: right;
+     width: 400px; 
+     height: 400px;
+     padding: 20px;
+     margin: 10px;
+ 
+    }
+   .my-div3{
+     background-image: url(imag1.jpg);
+     background-repeat: repeat-x; 
+     background-size: cover; 
+     background-position: bottom; 
+     width: 400px; 
+     height: 400px;
+     padding: 20px;
+     margin: 10px;
+ 
+    
+    }
+.my-div4{
+    background-image: url(imag1.jpg);
+    background-repeat: repeat-x; 
+    background-repeat: repeat-y; 
+    background-size: contain; 
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: 10px;
+}
