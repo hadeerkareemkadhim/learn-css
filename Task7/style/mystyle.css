@@ -1,0 +1,13 @@
+.p1 { 
+    background-color: rgb(236, 195, 215); 
+    height: 100px; 
+    padding: 20px; 
+    margin: 20px; 
+    font-weight: bold; 
+    font-size: large;
+     border-left: 10px solid red;
+    } 
+.p2 { color: red; 
+    font-size: x-large; 
+    font-weight: bold;
+}
