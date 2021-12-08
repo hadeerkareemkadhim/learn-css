@@ -1,0 +1,19 @@
+.my_div{
+  background-color: rgb(247, 183, 218);
+}
+
+/* ._my-div{}  ______(valid) */
+
+/* ..my-div{}  ______(not valid) */
+
+/* .12my-div{} _______(not valid) */
+
+/* .%my-div{} ________(not vaild) */
+
+/* .@my-div{} ________(not vaild) */
+
+/* .my @ div{} _______(not vaild) */
+
+/* ._my78div{} ________(vaild)  */
+
+/* .div {} ________(vaild)*/
