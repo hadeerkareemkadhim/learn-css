@@ -1,0 +1,55 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+  } 
+body { 
+    height: 100%; 
+    background-color: #eee; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    } 
+.graph { 
+    width: 200px; 
+    height: 60px; 
+    border: 1px solid rgb(131, 31, 31);
+    cursor: pointer; 
+    font-size: 21px; 
+    font-weight: bold; 
+    cursor:progress;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    position: absolute; 
+    top: 292px; 
+    z-index: 0; 
+    transition: 1s;
+    } 
+.graph::before,
+.graph::after { 
+    position: absolute; 
+    background: #eee; 
+    z-index: -1; 
+    transition: 1s; 
+    content: '';
+} 
+.graph::before { 
+    height: 50px; 
+    width: 130px;
+} 
+.graph::after { 
+    width: 150px; 
+    height: 30px;
+} 
+.graph:hover:before { 
+    width: 0px; 
+    background: #fff;
+} 
+.graph:hover::after { 
+    height: 0px; 
+    background: #fff;
+} 
+.graph:hover { 
+    background: rgb(240, 93, 208);
+} 
